@@ -4,8 +4,8 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\header",
-    "\\src\\assets"
+    "\\src\\app\\header\\left-dropdown"
   ],
-  "SelectedNode": "\\src\\app\\header\\topbar.component.html",
+  "SelectedNode": "\\src\\app\\header\\left-dropdown\\left-dropdown.component.ts",
   "PreviewInSolutionExplorer": false
 }

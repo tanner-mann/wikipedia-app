@@ -2,14 +2,7 @@
   text-decoration: underline;
 }
 
-ul {
-  list-style-type: none;
-}
 
-.dropdown-menu .href:hover {
-  text-decoration: underline;
-  color: blue;
-}
 
 .dropdown-menu .dropdown-item {
   color: blue;

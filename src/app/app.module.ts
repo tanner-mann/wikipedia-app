@@ -3,11 +3,19 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './header/topbar.component';
+import { BrandingComponent } from './header/branding/branding.component';
+import { SearchComponent } from './header/search/search.component';
+import { RightDropdownComponent } from './header/right-dropdown/right-dropdown.component';
+import { LeftDropdownComponent } from './header/left-dropdown/left-dropdown.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopbarComponent
+    TopbarComponent,
+    BrandingComponent,
+    SearchComponent,
+    RightDropdownComponent,
+    LeftDropdownComponent
   ],
   imports: [
     BrowserModule
