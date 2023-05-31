@@ -7,6 +7,8 @@ import { BrandingComponent } from './header/branding/branding.component';
 import { SearchComponent } from './header/search/search.component';
 import { RightDropdownComponent } from './header/right-dropdown/right-dropdown.component';
 import { LeftDropdownComponent } from './header/left-dropdown/left-dropdown.component';
+import { LayoutMainComponent } from './layout/layout-main/layout-main.component';
+import { SecondNavComponent } from './header/second-nav/second-nav.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { LeftDropdownComponent } from './header/left-dropdown/left-dropdown.comp
     BrandingComponent,
     SearchComponent,
     RightDropdownComponent,
-    LeftDropdownComponent
+    LeftDropdownComponent,
+    LayoutMainComponent,
+    SecondNavComponent
   ],
   imports: [
     BrowserModule

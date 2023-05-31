@@ -1,0 +1,17 @@
+.topnav a.nav-link:hover {
+  border-bottom: 1px solid blue;
+  text-decoration: none;
+}
+
+.topnav a.visited {
+  border-bottom: 1px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+.topnav a {
+  color: blue;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
