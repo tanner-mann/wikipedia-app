@@ -3,11 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\header",
-    "\\src\\app\\header\\second-nav",
     "\\src\\app\\layout",
     "\\src\\app\\layout\\layout-main"
   ],
-  "SelectedNode": "\\src\\app\\header\\second-nav\\second-nav.component.html",
+  "SelectedNode": "\\src\\app\\layout\\layout-main\\layout-main.component.html",
   "PreviewInSolutionExplorer": false
 }

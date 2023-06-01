@@ -1,0 +1,32 @@
+.card-link:link {
+color: #3366CC;
+  text-decoration: none;
+  
+}
+
+.card-link:hover {
+  border-bottom: 1px solid blue;
+  color: #3366CC;
+}
+
+.card-link {
+  color: #3366CC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+  font-size: 13.3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title {
+  font-size: 22px;
+}
+
+.card-text2 {
+  font-size: 11.9px;
+}
+
+.container-fluid {
+  color: #F9F9F9;
+}
