@@ -9,6 +9,7 @@ import { RightDropdownComponent } from './header/right-dropdown/right-dropdown.c
 import { LeftDropdownComponent } from './header/left-dropdown/left-dropdown.component';
 import { LayoutMainComponent } from './layout/layout-main/layout-main.component';
 import { SecondNavComponent } from './header/second-nav/second-nav.component';
+import { WelcomeBoxComponent } from './body/welcome-box/welcome-box.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { SecondNavComponent } from './header/second-nav/second-nav.component';
     RightDropdownComponent,
     LeftDropdownComponent,
     LayoutMainComponent,
-    SecondNavComponent
+    SecondNavComponent,
+    WelcomeBoxComponent
   ],
   imports: [
     BrowserModule
