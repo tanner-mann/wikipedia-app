@@ -1,16 +1,24 @@
-.topnav a:hover {
+.d-flex a:hover {
   border-bottom: 1px solid blue;
   text-decoration: underline;
 }
 
-.topnav a.active {
+.d-flex a.active {
   border-bottom: 1px solid black;
   color: black;
   text-decoration: none;
 }
 
-.topnav a {
+.d-flex a {
   color: #3366CC;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn {
+  color: black;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
