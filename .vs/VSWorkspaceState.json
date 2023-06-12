@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\body",
+    "\\src\\app\\body\\welcome-box",
+    "\\src\\app\\header",
+    "\\src\\app\\header\\second-nav",
+    "\\src\\app\\layout\\layout-main",
+    "\\src\\app\\pages\\main-page"
   ],
-  "SelectedNode": "\\src\\app",
+  "SelectedNode": "\\src\\app\\app-routing.module.ts",
   "PreviewInSolutionExplorer": false
 }

@@ -17,6 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { CreateAccountPageComponent } from './pages/create-account-page/create-account-page.component';
 import { LogInPageComponent } from './pages/log-in-page/log-in-page.component';
+import { FeaturedArticleComponent } from './body/featured-article/featured-article.component';
+import { InTheNewsComponent } from './body/in-the-news/in-the-news.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { LogInPageComponent } from './pages/log-in-page/log-in-page.component';
     HistoryPageComponent,
     MainPageComponent,
     CreateAccountPageComponent,
-    LogInPageComponent
+    LogInPageComponent,
+    FeaturedArticleComponent,
+    InTheNewsComponent
   ],
   imports: [
     BrowserModule,
