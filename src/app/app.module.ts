@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { TopbarComponent } from './header/topbar.component';
@@ -19,6 +20,7 @@ import { CreateAccountPageComponent } from './pages/create-account-page/create-a
 import { LogInPageComponent } from './pages/log-in-page/log-in-page.component';
 import { FeaturedArticleComponent } from './body/featured-article/featured-article.component';
 import { InTheNewsComponent } from './body/in-the-news/in-the-news.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -38,11 +40,13 @@ import { InTheNewsComponent } from './body/in-the-news/in-the-news.component';
     CreateAccountPageComponent,
     LogInPageComponent,
     FeaturedArticleComponent,
-    InTheNewsComponent
+    InTheNewsComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

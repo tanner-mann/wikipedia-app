@@ -4,12 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\body",
-    "\\src\\app\\body\\welcome-box",
-    "\\src\\app\\header",
-    "\\src\\app\\header\\second-nav",
-    "\\src\\app\\layout\\layout-main",
+    "\\src\\app\\layout",
+    "\\src\\app\\pages",
     "\\src\\app\\pages\\main-page"
   ],
-  "SelectedNode": "\\src\\app\\app-routing.module.ts",
+  "SelectedNode": "\\src\\app\\app.module.ts",
   "PreviewInSolutionExplorer": false
 }
