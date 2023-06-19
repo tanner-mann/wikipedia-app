@@ -4,10 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\body",
-    "\\src\\app\\layout",
+    "\\src\\app\\body\\featured-article",
+    "\\src\\app\\body\\in-the-news",
+    "\\src\\app\\body\\welcome-box",
     "\\src\\app\\pages",
-    "\\src\\app\\pages\\main-page"
+    "\\src\\app\\pages\\main-page",
+    "\\src\\app\\user-info"
   ],
-  "SelectedNode": "\\src\\app\\app.module.ts",
+  "SelectedNode": "\\src\\app\\pages\\main-page\\main-page.component.html",
   "PreviewInSolutionExplorer": false
 }
