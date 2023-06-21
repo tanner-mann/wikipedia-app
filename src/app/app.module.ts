@@ -21,6 +21,7 @@ import { LogInPageComponent } from './pages/log-in-page/log-in-page.component';
 import { FeaturedArticleComponent } from './body/featured-article/featured-article.component';
 import { InTheNewsComponent } from './body/in-the-news/in-the-news.component';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { HomeCardsComponent } from './body/home-cards/home-cards.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
     LogInPageComponent,
     FeaturedArticleComponent,
     InTheNewsComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    HomeCardsComponent
   ],
   imports: [
     BrowserModule,

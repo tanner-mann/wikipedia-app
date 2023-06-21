@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { card } from '../../body/card.model';
+import { Card } from '../../body/card.model';
+import { mock_card } from '../../body/mock-card';
 
 @Component({
   selector: 'app-main-page',
@@ -7,5 +8,11 @@ import { card } from '../../body/card.model';
   styleUrls: ['./main-page.component.css']
 })
 export class MainPageComponent {
-  card: card[] = [];
+  cards: Card[] = [];
+
+  constructor() {
+    for (var card of mock_card) {
+      this.cards.push(new Card(card));
+    }
+  }
 }
