@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Card } from '../../body/card.model';
 import { mock_card } from '../../body/mock-card';
+import { MainPageService } from './main-page.service';
 
 @Component({
   selector: 'app-main-page',
@@ -10,7 +11,7 @@ import { mock_card } from '../../body/mock-card';
 export class MainPageComponent {
   cards: Card[] = [];
 
-  constructor() {
+  constructor(private mainPageService: MainPageService) {
     for (var card of mock_card) {
       this.cards.push(new Card(card));
     }
