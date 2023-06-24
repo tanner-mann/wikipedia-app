@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "wikipedia-app-abfef": {
+      "hosting": {
+        "my-app": [
+          "wikipedia-app-abfef"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "wikipedia-app-abfef"
+  }
+}

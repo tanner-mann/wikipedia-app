@@ -22,6 +22,9 @@ import { FeaturedArticleComponent } from './body/featured-article/featured-artic
 import { InTheNewsComponent } from './body/in-the-news/in-the-news.component';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { HomeCardsComponent } from './body/home-cards/home-cards.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,9 @@ import { HomeCardsComponent } from './body/home-cards/home-cards.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]
