@@ -1,6 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { Card } from '../card.model';
-import { mock_card } from '../mock-card';
 
 @Component({
   selector: 'app-home-cards',

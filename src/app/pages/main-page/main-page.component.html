@@ -38,7 +38,6 @@
   </div>
 </div>
 
-<div *ngFor="let card of cards;">
   
   <div class="container-fluid">
     <div class="d-flex flex-row">
@@ -46,13 +45,15 @@
 
       </div>
       <div class="col-8">
-        <app-home-cards title={{card.title}} text={{card.text}} imgPath={{card.imgPath}}  imgCaption={{card.imgCaption}}></app-home-cards>
-      </div>
-      <div class="col-2">
+        <div *ngFor="let card of cards;">
+
+          <app-home-cards title={{card.title}} text={{card.text}} imgPath={{card.imgPath}} imgCaption={{card.imgCaption}}></app-home-cards>
+          </div>
+        </div>
+        <div class="col-2">
+
+        </div>
+
 
       </div>
-
-
-    </div>
   </div>
-</div>

@@ -8,8 +8,9 @@
     "\\src\\app\\pages",
     "\\src\\app\\pages\\main-page",
     "\\src\\app\\user-info",
-    "\\src\\assets"
+    "\\src\\assets",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\pages\\main-page\\main-page.service.ts",
+  "SelectedNode": "\\src\\app\\body\\home-cards\\home-cards.component.ts",
   "PreviewInSolutionExplorer": false
 }

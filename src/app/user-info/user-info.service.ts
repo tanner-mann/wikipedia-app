@@ -2,9 +2,7 @@ import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { UserInfo } from "./user-info.model";
 
-@Injectable({
-  providedIn: 'root',
-})
+@Injectable({providedIn: 'root'})
 export class UserInfoService{
   private baseUrl:string = 'https://wikipedia-app-abfef-default-rtdb.firebaseio.com/';
   private myInfoEndpoint:string = 'my-info.json'
