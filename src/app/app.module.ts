@@ -25,6 +25,7 @@ import { HomeCardsComponent } from './body/home-cards/home-cards.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
     AppRoutingModule,
     HttpClientModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideDatabase(() => getDatabase())
+    provideDatabase(() => getDatabase()),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

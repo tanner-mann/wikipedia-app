@@ -3,14 +3,10 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\body",
-    "\\src\\app\\body\\home-cards",
     "\\src\\app\\pages",
     "\\src\\app\\pages\\main-page",
-    "\\src\\app\\user-info",
-    "\\src\\assets",
-    "\\src\\environments"
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\body\\home-cards\\home-cards.component.ts",
+  "SelectedNode": "\\src\\app\\pages\\main-page\\main-page.component.html",
   "PreviewInSolutionExplorer": false
 }
