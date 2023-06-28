@@ -4,9 +4,10 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\pages",
-    "\\src\\app\\pages\\main-page",
+    "\\src\\app\\pages\\create-account-page",
+    "\\src\\app\\user-info",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\pages\\main-page\\main-page.component.html",
+  "SelectedNode": "\\src\\app\\pages\\create-account-page\\create-account-page.component.html",
   "PreviewInSolutionExplorer": false
 }
